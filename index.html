@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz Application</title>
+  </head>
+  <body>
+    <h1>JavaScript Quiz</h1>
+    <main class="quiz-container" id="quiz">
+      <header class="quiz-header">
+        <h4 id="Question">Test your javascript might!</h4>
+        <ul class="quiz_list">
+          <li class="quiz_list-item">
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="a_text">Question</label>
+          </li>
+
+          <li class="quiz_list-item">
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="b_text">Question</label>
+          </li>
+
+          <li class="quiz_list-item">
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="c_text">Question</label>
+          </li>
+
+          <li class="quiz_list-item">
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="d_text">Question</label>
+          </li>
+        </ul>
+      </header>
+      <button class="btn" id="Submit-btn">Submit</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

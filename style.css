@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  background: url(https://source.unsplash.com/-2vD8lIhdnw) center/cover
+    no-repeat;
+  color: #fff;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 450px;
+  margin: 2rem auto;
+  padding: 1rem 0.5rem;
+}
+
+header {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  height: 400px;
+}
+
+header:hover {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+h4 {
+  background-color: #26a69a;
+  border-bottom: 1px solid #333;
+  padding: 1rem;
+}
+
+li {
+  padding: 1rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+  transition: backgorund-color 0.2s ease-in;
+}
+
+li:hover {
+  background-color: #26a69a;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  transition: backgorund-color 0.2s ease-in;
+}
+
+label {
+  font-size: 1.3rem;
+  transition: 0.1s ease-in;
+}
+
+label:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+input:checked ~ label {
+  color: orangered;
+}
+
+.btn {
+  margin-top: 2rem;
+  width: 400px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+}
